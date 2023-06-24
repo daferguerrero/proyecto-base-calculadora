@@ -1,6 +1,6 @@
 # Estructura base proyecto calculadora con JavaScript
 
-[Click aquí para ver proyecto base funcionnando](https://duckduckgo.com)
+[Click aquí para ver proyecto base funcionnando](https://daferguerrero.github.io/proyecto-base-calculadora/)
 
 A tarvés de este este tutorial serás guiado paso a paso en la creación de una calculadora utilizando JavaScript. El repositorio contiene el código base HTML y CSS necesario para la interfaz de la calculadora, por lo cual está enfocado exclusivamente en explicar cómo funciona el código JavaScript en detalle. <br>
 
