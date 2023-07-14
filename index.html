@@ -18,38 +18,40 @@
 
       <div class="botones">
         <div class="grupo">
-          <input class="btn-numero" type="button" value="7">
-          <input class="btn-numero" type="button" value="8">
-          <input class="btn-numero" type="button" value="9">
-          <input class="btn-numero" type="button" value="+">
+          <input class="btn-numero" id="btn-limpiar" type="button" value="C" onclick="limpiarDisplay()">
         </div>
 
         <div class="grupo">
-          <input class="btn-numero" type="button" value="4">
-          <input class="btn-numero" type="button" value="5">
-          <input class="btn-numero" type="button" value="6">
-          <input class="btn-numero" type="button" value="-">
+          <input class="btn-numero" type="button" value="7" onclick="digitarEnDisplay('7')">
+          <input class="btn-numero" type="button" value="8" onclick="digitarEnDisplay('8')">
+          <input class="btn-numero" type="button" value="9" onclick="digitarEnDisplay('9')">
+          <input class="btn-numero" type="button" value="+" onclick="digitarEnDisplay('+')">
         </div>
 
         <div class="grupo">
-          <input class="btn-numero" type="button" value="1">
-          <input class="btn-numero" type="button" value="2">
-          <input class="btn-numero" type="button" value="3">
-          <input class="btn-numero" type="button" value="x">
+          <input class="btn-numero" type="button" value="4" onclick="digitarEnDisplay('4')">
+          <input class="btn-numero" type="button" value="5" onclick="digitarEnDisplay('5')">
+          <input class="btn-numero" type="button" value="6" onclick="digitarEnDisplay('6')">
+          <input class="btn-numero" type="button" value="-" onclick="digitarEnDisplay('-')">
         </div>
 
         <div class="grupo">
-          <input class="btn-numero" type="button" value=".">
-          <input class="btn-numero" type="button" value="0">
-          <input class="btn-numero" id="calcular" type="button" value="=">
-          <input class="btn-numero" type="button" value="/">
+          <input class="btn-numero" type="button" value="1" onclick="digitarEnDisplay('1')">
+          <input class="btn-numero" type="button" value="2" onclick="digitarEnDisplay('2')">
+          <input class="btn-numero" type="button" value="3" onclick="digitarEnDisplay('3')">
+          <input class="btn-numero" type="button" value="x" onclick="digitarEnDisplay('*')">
         </div>
 
         <div class="grupo">
-          <input class="btn-numero" id="btn-limpiar" type="button" value="C">
+          <input class="btn-numero" type="button" value="." onclick="digitarEnDisplay('.')">
+          <input class="btn-numero" type="button" value="0" onclick="digitarEnDisplay('0')">
+          <input class="btn-numero" id="calcular" type="button" value="=" onclick="calcular()">
+          <input class="btn-numero" type="button" value="/" onclick="digitarEnDisplay('/')">
         </div>
       </div>
     </main>
   </div>
+
+  <script src="./calculadora.js"></script>
 </body>
 </html>
